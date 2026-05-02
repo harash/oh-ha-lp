@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oh-ha! - 新しいチャットアプリ</title>
+    <meta name="description" content="Oh-ha!は、言葉が明日の活力になる、シンプルでポジティブな新しいチャットアプリです。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=M+PLUS+Rounded+1c:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header__inner">
+            <div class="header__logo">Oh-ha</div>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+
+            <div class="hero__inner">
+                <div class="hero__text">
+                    <h1 class="hero__title">Welcome to <br class="pc">Oh-ha!</h1>
+                    <p class="hero__desc">友達や、特別な関係を<br>もっとシンプルに、<br>もっとカワイクする<br>新しいチャットアプリです。</p>
+                    <a href="#download" class="btn btn--primary">今すぐダウンロード</a>
+                </div>
+                <div class="hero__image">
+                    <img src="assets/img/fv.gif" alt="Oh-ha キャラクター" class="hero__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="concepts">
+            <div class="concepts__inner">
+                <div class="concepts__header">
+                    <h2 class="concepts__title">CONCEPTS</h2>
+                    <p class="concepts__subtitle">情報が多すぎる世の中<br>必要最低限のコミュニケーションで</p>
+                </div>
+
+                <div class="concepts__grid">
+                    <!-- Card 1: 友達 (Horizontal) -->
+                    <div class="concept-card concept-card--1">
+                        <div class="concept-card__icon">
+                            <img src="assets/img/01.png" alt="友達">
+                        </div>
+                        <div class="concept-card__text">
+                            <h3 class="concept-card__label">友達</h3>
+                            <p class="concept-card__desc">大切な友達へ、<br>気軽な食事へ誘う「🍛」</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: 親子 (Vertical, Icon Top) -->
+                    <div class="concept-card concept-card--2">
+                        <div class="concept-card__icon">
+                            <img src="assets/img/02.png" alt="親子">
+                        </div>
+                        <div class="concept-card__text">
+                            <h3 class="concept-card__label">親子</h3>
+                            <p class="concept-card__desc">毎日の挨拶<br>「おはよう」</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: 恋人 (Vertical, Icon Bottom) -->
+                    <div class="concept-card concept-card--3">
+                        <div class="concept-card__text">
+                            <h3 class="concept-card__label">恋人</h3>
+                            <p class="concept-card__desc">単身赴任などで<br>離れたパートナーへの<br>メッセージ<br>「I love you」</p>
+                        </div>
+                        <div class="concept-card__icon">
+                            <img src="assets/img/03.png" alt="恋人">
+                        </div>
+                    </div>
+
+                    <!-- Card 4: お客様 (Vertical, Icon Bottom) -->
+                    <div class="concept-card concept-card--4">
+                        <div class="concept-card__text">
+                            <h3 class="concept-card__label">お客様</h3>
+                            <p class="concept-card__desc">お客様との<br>コミュニケーション<br>「元気！？」</p>
+                        </div>
+                        <div class="concept-card__icon">
+                            <img src="assets/img/04.png" alt="お客様">
+                        </div>
+                    </div>
+
+                    <!-- Card 5: 被災時 (Vertical, Icon Top) -->
+                    <div class="concept-card concept-card--5">
+                        <div class="concept-card__icon">
+                            <img src="assets/img/05.png" alt="被災時">
+                        </div>
+                        <div class="concept-card__text">
+                            <h3 class="concept-card__label">被災時</h3>
+                            <p class="concept-card__desc">被災時に行う<br>生存確認<br>「大丈夫？」</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 6: 特別な関係 (Horizontal) -->
+                    <div class="concept-card concept-card--6">
+                        <div class="concept-card__icon">
+                            <img src="assets/img/06.png" alt="特別な関係">
+                        </div>
+                        <div class="concept-card__text">
+                            <h3 class="concept-card__label">特別な関係</h3>
+                            <p class="concept-card__desc">人には言えない特別な関係の合図<br>「Oh-ha」</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="about__inner">
+                <h2 class="about__heading">ABOUT</h2>
+                <div class="about__content">
+                    <div class="about__phone">
+                        <img src="assets/img/about.gif" alt="Oh-ha App" class="about__mockup-img">
+                    </div>
+                    <div class="about__text">
+                        <h3 class="about__title">シンプルで<br>使いやすい<br>デザイン <span class="about__emoji">✨</span></h3>
+                        <p class="about__desc">Oh-haは、誰でも簡単に使える<br>シンプルなインターフェース。<br>友達との挨拶がもっとスムーズに、<br>もっと楽しくなります。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta" id="download">
+            <div class="cta__inner">
+                <div class="cta__box">
+                    <h2 class="cta__title">今すぐOh-haを<br class="sp">始めよう！ 🚀</h2>
+                    <p class="cta__desc">無料でダウンロードして、<br class="sp">友達とのコミュニケーションを今すぐ楽しもう！</p>
+                    <div class="cta__buttons">
+                        <a href="javascript:void(0)" class="store-btn store-btn--disabled">
+                            <i class="fab fa-apple"></i>
+                            <div class="store-btn__text">
+                                <span>DOWNLOAD ON THE</span>
+                                <strong>App Store</strong>
+                            </div>
+                            <div class="store-btn__comingsoon">Coming Soon</div>
+                        </a>
+                        <a href="#" class="store-btn">
+                            <i class="fab fa-google-play"></i>
+                            <div class="store-btn__text">
+                                <span>DOWNLOAD ON THE</span>
+                                <strong>Google Play</strong>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="faq__inner">
+                <h2 class="faq__heading">FAQ</h2>
+                <div class="faq__list">
+                    <!-- FAQ 1 -->
+                    <div class="faq__item">
+                        <div class="faq__q">
+                            <p>Oh-ha!はどのようなアプリですか？</p>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__a">
+                            <p>忙しい毎日の中で、大切な人と「必要最低限だけど温かい」コミュニケーションを取るためのアプリです。情報の多さに疲れることなく、シンプルな挨拶や気持ちを届けることができます。</p>
+                        </div>
+                    </div>
+                    <!-- FAQ 2 -->
+                    <div class="faq__item">
+                        <div class="faq__q">
+                            <p>利用料金はかかりますか？</p>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__a">
+                            <p>基本機能はすべて無料でご利用いただけます。今後、より便利に楽しく使える追加機能を提供予定です。</p>
+                        </div>
+                    </div>
+                    <!-- FAQ 3 -->
+                    <div class="faq__item">
+                        <div class="faq__q">
+                            <p>他のチャットアプリとの違いは何ですか？</p>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__a">
+                            <p>「文字数を制限する」「スタンプ一言で完結する」など、あえて不便にすることで、返信のプレッシャーをなくし、心地よい距離感を保てるように設計されています。</p>
+                        </div>
+                    </div>
+                    <!-- FAQ 4 -->
+                    <div class="faq__item">
+                        <div class="faq__q">
+                            <p>iOSとAndroidの両方で使えますか？</p>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__a">
+                            <p>はい、App StoreおよびGoogle Playの両方からダウンロードいただけます。異なるOS間でも問題なくメッセージのやり取りが可能です。</p>
+                        </div>
+                    </div>
+                    <!-- FAQ 5 -->
+                    <div class="faq__item">
+                        <div class="faq__q">
+                            <p>会員登録は必要ですか？</p>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__a">
+                            <p>現在、Googleアカウント連携による簡単な登録ですぐに使い始めることができます。</p>
+                        </div>
+                    </div>
+                    <!-- FAQ 6 -->
+                    <div class="faq__item">
+                        <div class="faq__q">
+                            <p>メッセージの文字数制限はありますか？</p>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__a">
+                            <p>はい。一回の投稿を短く設定することで、気軽でシンプルなやり取りを推奨しています。長文を送るストレスから解放されます。</p>
+                        </div>
+                    </div>
+                    <!-- FAQ 8 -->
+                    <div class="faq__item">
+                        <div class="faq__q">
+                            <p>機種変更時のデータ移行はできますか？</p>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__a">
+                            <p>登録したアカウントでログインすることで、新しい端末でもこれまでのデータを引き継ぐことができます。</p>
+                        </div>
+                    </div>
+                    <!-- FAQ 9 -->
+                    <div class="faq__item">
+                        <div class="faq__q">
+                            <p>特定の相手以外（グループなど）とも使えますか？</p>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__a">
+                            <p>現在はできません。今後グループ機能もリリース予定です。今は1対1での「ゆるい」情報共有に非常に適しています。</p>
+                        </div>
+                    </div>
+                    <!-- FAQ 10 -->
+                    <div class="faq__item">
+                        <div class="faq__q">
+                            <p>PC版はありますか？</p>
+                            <span class="faq__icon"></span>
+                        </div>
+                        <div class="faq__a">
+                            <p>現在はスマートフォン（iOS / Android）版のみの提供となっています。将来的にブラウザ版のリリースも検討しております。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__inner">
+            <p class="footer__share-label">Share</p>
+            <div class="footer__icons">
+                <a href="https://www.facebook.com/sharer/sharer.php?u=https://oh-ha.com/" target="_blank" rel="noopener noreferrer" class="footer__icon"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/intent/tweet?text=Oh-ha!%20-%20言葉が明日の活力になる、新しいチャットアプリ&url=https://oh-ha.com/" target="_blank" rel="noopener noreferrer" class="footer__icon"><img src="assets/img/x.svg" alt="X"></a>
+                <a href="https://social-plugins.line.me/lineit/share?url=https://oh-ha.com/" target="_blank" rel="noopener noreferrer" class="footer__icon"><i class="fa-brands fa-line"></i></a>
+            </div>
+            <div class="footer__logo">
+                <img src="assets/img/logo_w.svg" alt="Oh-ha">
+            </div>
+            <div class="footer__bottom">
+                <a href="https://forms.gle/Ja2dToqV79UWPRsLA" class="footer__link">Contact</a>
+                <p class="footer__copy">&copy; 2026 Oh-ha</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.faq__item').forEach(item => {
+            item.addEventListener('click', () => {
+                item.classList.toggle('is-active');
+            });
+        });
+    </script>
+</body>
+</html>
